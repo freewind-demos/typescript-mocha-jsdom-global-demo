@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha -r ts-node/register -r jsdom-global/register *-test.ts"
+    "test": "mocha -r ts-node/register -r jsdom-global/register --file global-setup.ts *-test.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
